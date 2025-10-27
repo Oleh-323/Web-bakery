@@ -3,4 +3,51 @@
     background-color: brown;
 }
 
+.text-menu{
+    font-family: 'Montserrat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-style: 'Italic';
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(61, 24, 11, 1);
+    white-space: nowrap;
+}
+.pc-adaptive {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    border-radius: 45px;
+    padding: 22px;
+    margin-left: 80px;
+    margin-right: 80px;
+    max-width: calc(100% - 160px); 
+    box-sizing: border-box;
+}
+
+img{
+    height: 74px;
+}
+
+header {
+    position: fixed;
+
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .header-container {
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (max-width: 1024px) {
+    .pc-adaptive {
+      flex-wrap:  wrap; 
+      justify-content: center;
+    }
+  }
   

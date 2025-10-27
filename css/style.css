@@ -1,4 +1,6 @@
-body{
-  background-color: rgb(135, 183, 246);
+html, body {
+  margin: 0;
+  padding: 0;
 }
 @import url("/css/page/header.border.css");
+@import url("/css/page/header.welcome.css");
