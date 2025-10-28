@@ -1,7 +1,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: blueviolet
 }
 /* СПРОБА 4 */
 @import url("./page/header.border.css");
