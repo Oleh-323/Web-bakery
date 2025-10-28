@@ -2,5 +2,5 @@ html, body {
   margin: 0;
   padding: 0;
 }
-@import url("./css/page/header.border.css");
-@import url("./css/page/header.welcome.css");
+@import url("./page/header.border.css");
+@import url("./page/header.welcome.css");
