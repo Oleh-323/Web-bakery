@@ -8,11 +8,17 @@
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="../css/page/header.border.css">
   <link rel="stylesheet" href="../css/page/header.welcome.css">
+  <link rel="stylesheet" href="../css/page/header.welcome.css">
+  <link rel="stylesheet" href="../css/page/short-info.css">
+  <link rel="stylesheet" href="../css/page/our.proposition.css">
+  <link rel="stylesheet" href="../css/page/services.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
   <script src="https://unpkg.com/htmx.org@1.9.9"></script>
 </head>
 <body>
 
+  
   <section 
     class="header border"
     data-hx-trigger="load"
@@ -25,5 +31,35 @@
   data-hx-swap="outerHTML"
   data-hx-get="html/header.welcome.html"
 ></section>
+<section 
+class="header welcome"
+data-hx-trigger="load"
+data-hx-swap="outerHTML"
+data-hx-get="html/short-info.html"
+></section>
+<section 
+class="header welcome"
+data-hx-trigger="load"
+data-hx-swap="outerHTML"
+data-hx-get="html/our.proposition.html"
+></section>
+<section 
+class="header welcome"
+data-hx-trigger="load"
+data-hx-swap="outerHTML"
+data-hx-get="html/services.html"
+></section>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>

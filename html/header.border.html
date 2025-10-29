@@ -1,27 +1,38 @@
 <section class="header">
-     
     <header>
-        <div class="header-container">
+      <div class="header-container">
         <img class="logo" src="../resources/icons/leokaces-logo.svg" alt="leocakes-logo">
-
+  
         <div class="hd-menu">
-            
-            <div class="pc-adaptive">
-                <div class="text-menu">Про нас</div>
-                <div class="text-menu">Послуги</div>
-                <div class="text-menu">Меню</div>
-                <div class="text-menu">Фотогалерея</div>
-                <div class="text-menu">Контакти</div>
-            </div>
-            <!-- 
-            <span class="mobile-adaptive">
-                <div class="burger-menu"><img src="" alt="burger icons"></div>
-            </span>
-            -->
-
-
+          <div class="pc-adaptive">
+            <div class="text-menu">Про нас</div>
+            <div class="text-menu">Послуги</div>
+            <div class="text-menu">Меню</div>
+            <div class="text-menu">Фотогалерея</div>
+            <div class="text-menu">Контакти</div>
+          </div>
+  
+          <div class="burger-menu">
+            <img src="../resources/icons/burger_noactive 1.svg" alt="burger icon" />
+          </div>
+  
+          <div class="mobile-menu">
+            <div class="text-menu">Про нас</div>
+            <div class="text-menu">Послуги</div>
+            <div class="text-menu">Меню</div>
+            <div class="text-menu">Фотогалерея</div>
+            <div class="text-menu">Контакти</div>
+          </div>
         </div>
-    </div>
+      </div>
     </header>
-
-</section>
+    <script>
+      const burger = document.querySelector('.burger-menu');
+      const mobileMenu = document.querySelector('.mobile-menu');
+    
+      burger.addEventListener('click', () => {
+        mobileMenu.classList.toggle('active');
+      });
+    </script>
+  </section>
+  
