@@ -173,6 +173,7 @@
     }
     .lower-pannel {
         display: block;
+        margin: 0 50px;
     }
 
     .icon {
@@ -185,6 +186,35 @@
         
         max-width: 100%;
         height: auto;
+    }
+
+    /* =======================================*/
+
+    @media (max-width: 400px) { 
+        .text-contact {
+            text-align: left;         
+            font-size: 12px;
+            display: flex;         
+            flex-direction: column;  
+            align-items: start; 
+            justify-content: left;    
+        }
+
+        .lower-pannel {
+            margin: 0 25px;
+        }
+        .write-sth{
+            font-size: 14px;
+            text-align: center;
+        }
+        .open-letter {
+            width: 80%;
+        }
+        .right-side{
+            justify-content: center;
+            align-items: center;
+        
+        }
     }
 
 }
