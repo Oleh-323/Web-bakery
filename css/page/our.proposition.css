@@ -9,13 +9,12 @@
     text-align: center;
     margin-bottom: 60px;
     font-family: Montserrat;
-font-weight: 400;
-font-style: normal;
-font-size: 64px;
-line-height: 100%;
-letter-spacing: 0%;
-color: rgba(255, 255, 255, 1);
-
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
 }
 
 .propos-img{
@@ -42,12 +41,20 @@ color: rgba(255, 255, 255, 1);
 }
 
 @media (max-width: 1022px){
+    
+.our-proposition h1{
+    font-size: 54px;
+}
     .list-propos{
         display: block;
-        
+        margin: 0 50px;
+    }
+    .propos-img{
+        width: 200px;
     }
     .name-of-propos{
         padding-top: 0px;
         padding-bottom: 40px;
+        margin: 0 50px;
     }
 }

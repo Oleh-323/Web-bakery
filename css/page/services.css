@@ -73,8 +73,17 @@ align-items: end;
 
 @media (max-width:1435px){
 
+.service h1{
+    font-size: 24px;
+}
+.service img{
+    width: 50px;
+}
+    .tables{
+        margin: 0 50px;
+    }
     .table {
-        max-width: 250px;
+        max-width: 350px;
         max-height: 3000px;
     }
     .table h2{

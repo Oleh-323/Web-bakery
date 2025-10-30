@@ -165,6 +165,12 @@
 }
 
 @media (max-width: 768px) {
+    .title-contact h1{
+        font-size: 34px;
+    }
+    .title-contact img{ 
+        width: 7%; 
+    }
     .lower-pannel {
         display: block;
     }

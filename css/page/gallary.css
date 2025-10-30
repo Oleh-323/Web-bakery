@@ -57,7 +57,21 @@ margin: 0 90px
 }
 
 @media (max-width: 768px) {
+  .title{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    
+    margin: 0 50px; 
 
+  }
+  .title h1{
+    font-size: 26px;
+  }
+  .title img{
+    width: 50px;
+    height: auto;
+    gap: 5px;
+  }
 
     .photos {
       flex-direction: column;
@@ -75,11 +89,9 @@ margin: 0 90px
   
     .arrow.back {
       transform: rotate(90deg); 
-
     }
   
     .arrow.next {
-
       transform: rotate(90deg); 
     }
   
@@ -88,4 +100,16 @@ margin: 0 90px
     .arrow:hover {
         transform: scale(1.1)rotate(90deg); 
       }
+
+      @media (max-width: 450px) {
+        .photo{
+          width: 80%;
+          height: auto;
+
+        }
+        .photos{
+          margin: 0 50px;
+        }
+      }
+
   }
