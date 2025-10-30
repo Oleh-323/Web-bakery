@@ -1,0 +1,63 @@
+<section class="contact">
+    <link rel="stylesheet" href="../css/page/contact.css">
+    
+    <div class="title-contact">
+        <h1>Контакти</h1>
+        <img src="../resources/icons/branch-with-leaves-svgrepo-com 1.svg" alt="sth">
+    </div>
+
+    <div class="lower-pannel">
+        <div class="text-contact">
+            <ul>
+                <li><span class="social-app">Instagram:</span> <span class="aboutme">@Oleh_vlas</span></li>
+                <li><span class="social-app">Telegram:</span> <span class="aboutme">@oleh_vlas</span></li>
+                <li><span class="social-app">Number of telephone:</span> <span class="aboutme"> 097*****65</span></li>
+                <li><span class="social-app">TikTok:</span> <span class="aboutme">Doctor Leo</span></li>
+                <li><span class="social-app">Facebook:</span> <span class="aboutme">Oleh_Vlasyuk</span></li>
+            </ul>
+        </div>
+        
+        <div class="right-side">
+            <div class="icon">
+              <img src="../resources/icons/leokaces-logo.svg" alt="leokaces-logo">
+            </div>
+            <div class="contact-with-us">
+                <div class="write-sth">Зв’яжись з нами прямо зараз!</div>
+
+                <div class="open-letter" style="display: none;">
+                    <h1>Напиши нам! <span class="close-letter">X</span></h1>
+                <form class="contact-form">
+                    <label>Ім’я:</label>
+                    <input type="text" name="name" placeholder="Ваше ім’я" required>
+
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="Ваш Email" required>
+
+                    <label>Тема:</label>
+                    <input type="text" name="subject" placeholder="Тема повідомлення" required>
+
+                    <label>Текст:</label>
+                    <textarea  name="message" placeholder="Ваше повідомлення" rows="4" required></textarea>
+
+                    <button type="submit" class="send">Відправити</button>
+                </form>
+                </div>
+
+            </div>
+          </div>
+    </div>
+
+<script>
+const writeBtn = document.querySelector('.write-sth');
+    const openLetter = document.querySelector('.open-letter');
+    const closeBtn = document.querySelector('.close-letter');
+    
+    writeBtn.addEventListener('click', () => {
+        openLetter.style.display = 'block';
+    });
+    
+    closeBtn.addEventListener('click', () => {
+        openLetter.style.display = 'none';
+    });
+    </script>
+</section>

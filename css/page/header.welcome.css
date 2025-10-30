@@ -8,6 +8,8 @@
     margin-bottom: 20px;
     color: #ffffff;
     z-index: 10;
+    display: flex;
+    word-wrap: break-word;
 }
 .title-main h3{
     font-family: 'Montserrat';
@@ -92,5 +94,20 @@ border-radius: 180px;
     .video-img{
         width: 20%;
         height: 20%;
-       }
     }
+
+    @media (max-width:768px){
+
+        .title-main{
+            padding: 125px  50px;
+        
+        }
+        .title-main h1{
+            font-size: 58px;
+        }
+        .title-main h3{
+            font-size: 12px;
+        }
+    }
+
+}

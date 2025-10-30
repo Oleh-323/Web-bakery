@@ -41,7 +41,7 @@ color: rgba(255, 255, 255, 1);
 color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 1023px){
+@media (max-width: 1022px){
     .list-propos{
         display: block;
         

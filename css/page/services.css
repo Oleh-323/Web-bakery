@@ -72,18 +72,35 @@ align-items: end;
 }
 
 @media (max-width:1435px){
-    .tables{
-        display: flex;
-        gap: 15px;
-        flex-direction: column;
-        justify-content: space-between; 
-        align-items: center;
-    }
+
     .table {
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 250px;
+        max-height: 3000px;
     }
+    .table h2{
+    font-size: 26px;
+    
+    }
+    .table ul{
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+    }
+
+
+    @media (max-width:768px){ 
+        .tables{
+            display: flex;
+            gap: 15px;
+            flex-direction: column;
+            justify-content: space-between; 
+            align-items: center;
+        }
+        .table {
+            max-width: 350px;
+            max-height: 350px;
+        }
     
 }
 
-
+}
