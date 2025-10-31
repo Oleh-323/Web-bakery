@@ -50,6 +50,6 @@ WEB/
 # Figma
 🌐 [Figma](https://www.figma.com/design/1TpV7a6dzNQqF1gHJuDvly/Web--Design-and-web-programs?node-id=115-6&t=t2Z3rX6DxXFAq8cW-0)
 
-💜 [Git Page(No working😁)]()
+💜 [Git Page](https://oleh-323.github.io/Web-bakery/)
 
 🧐 [Git Hub](https://github.com/Oleh-323/Web-bakery)
