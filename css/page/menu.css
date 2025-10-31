@@ -59,4 +59,17 @@
     color: rgba(255, 255, 255, 1);
     opacity: 0.9;
   }
+  @media (max-width:768px){
+    .table-block {
+      padding: 25px 10px;
+    }
+    .menu{
+      padding: 50px;
+    }
+    @media (max-width:400px){
+      .menu{
+        padding: 25px;
+      } 
+  }
+}
   

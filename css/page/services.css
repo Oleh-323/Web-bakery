@@ -28,12 +28,15 @@ margin: 0 80px;
 padding-bottom: 90px;
 gap: 15px;
 
+
 }
 .table {
     background: rgba(255, 255, 255);
     border-radius: 25px;
-    max-width: 400px;
-    max-height: 400px;   
+    width: 100%;     
+    max-width: 400px;     
+    min-width: 200px; 
+    height: 300px;  
  
     display: flex;
     flex-direction: column;
@@ -79,13 +82,8 @@ align-items: end;
 .service img{
     width: 50px;
 }
-    .tables{
-        margin: 0 50px;
-    }
-    .table {
-        max-width: 350px;
-        max-height: 3000px;
-    }
+    
+
     .table h2{
     font-size: 26px;
     
@@ -96,8 +94,6 @@ align-items: end;
         margin-left: 5px;
     }
 
-
-    @media (max-width:768px){ 
         .tables{
             display: flex;
             gap: 15px;
@@ -110,6 +106,6 @@ align-items: end;
             max-height: 350px;
         }
     
-}
+
 
 }
