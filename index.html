@@ -5,15 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leocakes</title>
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="../css/page/header.border.css">
-  <link rel="stylesheet" href="../css/page/header.welcome.css">
-  <link rel="stylesheet" href="../css/page/header.welcome.css">
-  <link rel="stylesheet" href="../css/page/short-info.css">
-  <link rel="stylesheet" href="../css/page/our.proposition.css">
-  <link rel="stylesheet" href="../css/page/services.css">
-  <link rel="stylesheet" href="../css/page/menu.css">
-  <link rel="stylesheet" href="../css/page/contact.css">
+  <link rel="stylesheet" href="./css/page/header.border.css">
+  <link rel="stylesheet" href="./css/page/header.welcome.css">
+  <link rel="stylesheet" href="./css/page/header.welcome.css">
+  <link rel="stylesheet" href="./css/page/short.info.css">
+  <link rel="stylesheet" href="./css/page/our.proposition.css">
+  <link rel="stylesheet" href="./css/page/services.css">
+  <link rel="stylesheet" href="./css/page/contact.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
@@ -21,55 +19,320 @@
 </head>
 <body>
 
+
+  <section class="header">
+    <header>
+      <div class="header-container">
+        <img class="logo" src="./resources/icons/leokaces-logo.svg" alt="leocakes-logo">
   
+        <div class="hd-menu">
+          <div class="pc-adaptive">
+            <a href="#aboutus" class="text-menu">Про нас</a>
+            <a href="#service" class="text-menu">Послуги</a>
+            <a href="#menu" class="text-menu">Меню</a>
+            <a href="#gallary" class="text-menu">Фотогалерея</a>
+            <a href="#contacts" class="text-menu">Контакти</a>
+          </div>
+  
+          <div class="burger-menu">
+            <img class="burger" src="./resources/icons/burger_noactive 1.svg" alt="burger icon" />
+          </div>
+  
+          <div class="mobile-menu">
+            <a href="#aboutus" class="text-menu mob">Про нас</a>
+            <a href="#service" class="text-menu mob">Послуги</a>
+            <a href="#menu" class="text-menu mob">Меню</a>
+            <a href="#gallary" class="text-menu mob">Фотогалерея</a>
+            <a href="#contacts" class="text-menu mob">Контакти</a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </section>
+  
+  <!--
   <section 
     class="header border"
     data-hx-trigger="load"
     data-hx-swap="outerHTML"
     data-hx-get="html/header.border.html"
-  ></section>
+  ></section>-->
+
+  <section class="wideo">
+    
+    <video autoplay muted loop playsinline class="bg-video" id="bgVideo">
+        <source src="./resources/video/2832316-hd_1920_1080_30fps.mp4" type="video/mp4">
+      </video>
+    
+      <div class="overlay"></div>
+<div class="welcome" >
+    
+    <div class="title-main">
+        <h1>Найкраща <br> пекарня Львова</h1>
+        <h3>← Традиції випікання з сучасним підходом<br>
+            ← Ваш щоденний заряд гарного настрою<br>
+            ← Рецепти, які передають любов у кожному шматочку<br>
+            ← Свіжий хліб щодня прямо з печі<br>
+            ← Смак, який полюблять усі львів’яни
+        </h3>
+    </div>
+    <div class="video-play" id="videoBtn"><img id="playIcon" class="video-img" alt="play-stop-video" src="./resources/icons/Group 7.svg" ></div>
+    <div class="social-media">
+        <div href="#" class="telegram icons"><img  src="./resources/icons/telegram 1.svg" alt="1"></div>
+        <div href="#" class="instagram icons"><img src="./resources/icons/instagram 1.svg" alt="4"></div>
+        <div href="#" class="facebook icons"><img src="./resources/icons/facebook 1.svg" alt="2"></div>
+        <div href="#" class="ticktok icons"><img src="./resources/icons/tik-tok 1.svg" alt="3"></div>
+    </div>
+</div>
+
+</section>
+
+  <!--
   <section 
   class="header welcome"
   data-hx-trigger="load"
   data-hx-swap="outerHTML"
   data-hx-get="html/header.welcome.html"
-></section>
-<section 
+></section>-->
+
+<section class="short-info">
+  <link rel="stylesheet" href="./css/page/short.info.css">
+
+  <div class="left">
+    <div class="upper">5 Років досвіду</div>
+    <div class="lower">Широкий вибір</div>
+  </div>
+
+  <div class="center">
+    <h1 id="aboutus">LeoCakes</h1>
+    <h3>Місце де аромат свіжої випічки оживає</h3>
+  </div>
+
+  <div class="right">
+    <div class="upper">Понад 30<br>тис.<br>замовлень</div>
+  </div>
+</section>
+
+
+  <!--<section 
 class="short-info"
 data-hx-trigger="load"
 data-hx-swap="outerHTML"
 data-hx-get="html/short.info.html"
-></section>
-<section 
+></section>-->
+
+<section class="our-proposition">
+  <link rel="stylesheet" href="./css/page/our.proposition.css">
+  <h1>Наші пропозиції</h1>
+<div class="list-propos">
+  <div class="left">
+      <div><img class="propos-img" src="./resources/icons/Frame 53 (1).svg" alt=""></div>
+      <div class="name-of-propos">Хліб</div>
+  </div>
+  <div class="center">
+      <div><img class="propos-img" src="./resources/icons/Frame 54.svg" alt=""></div>
+      <div class="name-of-propos">Пляцок</div>
+  </div>
+  <div class="right">
+       <div><img class="propos-img" src="./resources/icons/Frame 53.svg"  alt=""></div>
+      <div class="name-of-propos">Круасан</div>
+  </div>
+</div>
+</section>
+
+<!--<section 
 class="header welcome"
 data-hx-trigger="load"
 data-hx-swap="outerHTML"
 data-hx-get="html/our.proposition.html"
-></section>
-<section 
+></section>-->
+
+<section class="services">
+  <div class="service">
+      <img src="./resources/icons/barley-crop-food-grain-harvest-plant-svgrepo-com 1.svg" alt="crop">
+      <h1 id="service">Наші послуги</h1>
+      <img src="./resources/icons/gloves-svgrepo-com 1.svg" alt="gloves">
+  </div>
+
+  <div class="tables">
+
+      <div class="standart table">
+          <h2>Standart</h2>
+          <ul>
+              <li>Класичний асортимент випічки</li>
+              <li>3 види десертів на вибір</li>
+              <li>Подача у стандартній упаковці</li>
+              <li>Безкоштовна доставка при замовленні від 500 грн</li>
+              <li>Ідеально для щоденного чаювання</li>
+          </ul>
+          <div class="price">Price: 10$/h</div>
+      </div>
+
+      <div class="premium table">
+          <h2>PREMIUM</h2>
+          <ul>
+              <li>Розширене меню з фірмовими десертами</li>
+              <li>Індивідуальне оформлення тістечок</li>
+              <li>Подарункова упаковка</li>
+              <li>Безкоштовна доставка по місту</li>
+              <li>Підходить для особливих подій</li>
+          </ul>
+          <div class="price">Price: 40$/h</div>
+      </div>
+
+      <div class="banquet table">
+          <h2>Banquet</h2>
+          <ul>
+              <li>Повний кейтеринг для свят</li>
+              <li>Десерти, торти, закуски та напої</li>
+              <li>Оформлення столу в обраному стилі</li>
+              <li>Персональний менеджер події</li>
+              <li>Доставка та обслуговування на місці</li>
+          </ul>
+          <div class="price">Price: 25$/h</div>
+      </div>
+  </div>
+</section>
+
+<!--<section 
 class="header welcome"
 data-hx-trigger="load"
 data-hx-swap="outerHTML"
 data-hx-get="html/services.html"
-></section>
-<section 
+></section>-->
+
+<section class="menu">
+  <h1 id="menu">Меню</h1>
+
+  <div class="menu-table">
+    <div class="dessert table-block">
+      <h3>Десерти</h3>
+      <ul>
+        <li><span>Морозиво: По-моєму, нас кинули!</span><span>45.50₴</span></li>
+        <li><span>Жиле: В мене є країна</span><span>45.50₴</span></li>
+        <li><span>Жиле: Я її люблю</span><span>45.50₴</span></li>
+        <li><span>Жиле: За волошкові очі</span><span>45.50₴</span></li>
+        <li><span>Жиле: Люди – кораблі</span><span>45.50₴</span></li>
+        <li><span>Тістечко: Я з нею разом</span><span>45.50₴</span></li>
+        <li><span>Тістечко: Піжмити прожив</span><span>45.50₴</span></li>
+        <li><span>Торт: Притулиш мене піснею</span><span>45.50₴</span></li>
+        <li><span>Торт: До теплої землі</span><span>45.50₴</span></li>
+      </ul>
+    </div>
+
+    <div class="baking table-block">
+      <h3>Випічка</h3>
+      <ul>
+        <li><span>Хліб: Чекай куме</span><span>45.50₴</span></li>
+        <li><span>Хліб: Курвнем йди</span><span>45.50₴</span></li>
+        <li><span>Хліб: Тіто-мріто маргаріто</span><span>45.50₴</span></li>
+        <li><span>Булочка: Ми із кумом два бандита</span><span>45.50₴</span></li>
+        <li><span>Булочка: Знає неон Чорна Гора</span><span>45.50₴</span></li>
+        <li><span>Круасан: З половинки пісня лине</span><span>45.50₴</span></li>
+        <li><span>Круасан: Я ліплю її нікому</span><span>45.50₴</span></li>
+        <li><span>Круасан: Не віддам рідного дому</span><span>45.50₴</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!--<section 
 class="menu"
 data-hx-trigger="load"
 data-hx-swap="outerHTML"
 data-hx-get="html/menu.html"
-></section>
-<section 
+></section>-->
+
+<section class="gallary">
+  <link rel="stylesheet" href="./css/page/gallary.css">
+  
+  <div class="title">
+      <img src="./resources/icons/gallery-minimalistic-svgrepo-com 1.svg" alt="gallary icon">
+      <h1 id="gallary">Галерея</h1>
+      <img src="./resources/icons/grain-organic-svgrepo-com 1.svg" alt="">
+ </div>
+
+
+ <div class="photos">
+  <img class="arrow back" src="./resources/icons/arrow-left-svgrepo-com 1.svg" alt="back">
+
+  <div class="list-photos">
+    <div class="photo"><img src="./resources/img/0b55e2c586d25034d8a241cd836e4ed6cf938fe9.png" alt=""></div>
+    <div class="photo"><img src="./resources/img/42_lowres-780x1170.jpg" alt=""></div>
+    <div class="photo"><img src="./resources/img/7780819d040aea25c112bf9b72d2d991dfe0b504.jpg" alt=""></div>
+    <div class="photo"><img src="./resources/img/Bakery-Website.jpg" alt=""></div>
+  </div>
+
+  <img class="arrow next" src="resources/icons/arrow-left-svgrepo-com 2.svg" alt="next">
+</div>
+
+</section>
+
+<!--<section 
 class="gallary"
 data-hx-trigger="load"
 data-hx-swap="outerHTML"
 data-hx-get="html/gallary.html"
-></section>
-<section 
+></section>-->
+
+<section class="contact">
+  <link rel="stylesheet" href="./css/page/contact.css">
+  
+  <div class="title-contact">
+      <h1 id="contacts">Контакти</h1>
+      <img src="./resources/icons/branch-with-leaves-svgrepo-com 1.svg" alt="sth">
+  </div>
+
+  <div class="lower-pannel">
+      <div class="text-contact">
+          <ul>
+              <li><span class="social-app">Instagram:</span> <span class="aboutme">@Oleh_vlas</span></li>
+              <li><span class="social-app">Telegram:</span> <span class="aboutme">@oleh_vlas</span></li>
+              <li><span class="social-app">Number of telephone:</span> <span class="aboutme"> 097*****65</span></li>
+              <li><span class="social-app">TikTok:</span> <span class="aboutme">Doctor Leo</span></li>
+              <li><span class="social-app">Facebook:</span> <span class="aboutme">Oleh_Vlasyuk</span></li>
+          </ul>
+      </div>
+      
+      <div class="right-side">
+          <div class="icon">
+            <img src="./resources/icons/leokaces-logo.svg" alt="leokaces-logo">
+          </div>
+          <div class="contact-with-us">
+              <div class="write-sth">Зв’яжись з нами прямо зараз!</div>
+
+              <div class="open-letter" style="display: none;">
+                  <h1>Напиши нам! <span class="close-letter">X</span></h1>
+              <form class="contact-form">
+                  <label>Ім’я:</label>
+                  <input type="text" name="name" placeholder="Ваше ім’я" required>
+
+                  <label>Email:</label>
+                  <input type="email" name="email" placeholder="Ваш Email" required>
+
+                  <label>Тема:</label>
+                  <input type="text" name="subject" placeholder="Тема повідомлення" required>
+
+                  <label>Текст:</label>
+                  <textarea  name="message" placeholder="Ваше повідомлення" rows="4" required></textarea>
+
+                  <button type="submit" class="send">Відправити</button>
+              </form>
+              </div>
+
+          </div>
+        </div>
+  </div>
+
+
+</section>
+
+<!--<section 
 class="contact"
 data-hx-trigger="load"
 data-hx-swap="outerHTML"
 data-hx-get="html/contact.html"
-></section>
+></section>-->
 
 
 
@@ -78,7 +341,43 @@ data-hx-get="html/contact.html"
 
 
 
+<script>
+  const burger = document.querySelector('.burger-menu');
+  const mobileMenu = document.querySelector('.mobile-menu');
 
+  burger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('active');
+  });
+
+  const video = document.getElementById('bgVideo');
+  const button = document.getElementById('videoBtn');
+  const icon = document.getElementById('playIcon');
+
+  button.addEventListener('click', () => {
+    if (video.paused) {
+      video.play();
+      icon.src = "./resources/icons/Group 7.svg";
+    } else {
+      video.pause();
+      icon.src = "./resources/icons/Group 8.svg"; 
+    }
+  });
+ 
+const writeBtn = document.querySelector('.write-sth');
+  const openLetter = document.querySelector('.open-letter');
+  const closeBtn = document.querySelector('.close-letter');
+  
+  writeBtn.addEventListener('click', () => {
+      openLetter.style.display = 'block';
+  });
+  
+  closeBtn.addEventListener('click', () => {
+      openLetter.style.display = 'none';
+  });
+  </script>
+
+
+</section>
 
 
 </body>

@@ -1,6 +1,6 @@
 .our-proposition{
     position: relative;
-    background: url("/resources/img/bakery.png") no-repeat center center / cover;
+    background: url("../../resources/img/bakery.png") no-repeat center center / cover;
     padding-top: 90px;
     padding-bottom: 60px;
 }

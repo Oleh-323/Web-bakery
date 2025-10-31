@@ -1,5 +1,5 @@
 .menu {
-    background: url("/resources/img/bakery-second.png") center/cover no-repeat;
+    background: url("../../resources/img/bakery-second.png") center/cover no-repeat;
     padding: 80px;
     color: white;
     font-family: 'Corben', sans-serif;
