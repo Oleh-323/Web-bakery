@@ -9,6 +9,11 @@
     white-space: nowrap;
     text-decoration: none;
 }
+
+.text-menu:hover{
+  color: rgb(255, 255, 255);
+  
+} 
 .pc-adaptive {
     display: flex;
     flex-wrap: nowrap;

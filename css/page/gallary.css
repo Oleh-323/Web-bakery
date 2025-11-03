@@ -26,8 +26,9 @@ margin: 0 90px
 
 .list-photos {
   display: flex;
-  gap: 20px; 
-  overflow: hidden; 
+  gap: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 .photo {
